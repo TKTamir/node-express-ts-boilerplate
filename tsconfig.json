@@ -15,7 +15,6 @@
     "rootDir": "./src",
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
-    "verbatimModuleSyntax": true
   },
   "include": ["src"]
 }
