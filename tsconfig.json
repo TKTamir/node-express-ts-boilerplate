@@ -13,6 +13,10 @@
     "resolveJsonModule": true,
     "outDir": "./dist",
     "rootDir": "./src",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    },
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
   },
