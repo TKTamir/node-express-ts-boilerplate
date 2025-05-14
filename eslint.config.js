@@ -21,7 +21,6 @@ export default [
       node: nodePlugin,
     },
     rules: {
-      ...eslintPlugin.configs.recommended.rules,
       "node/no-missing-import": "error",
       "@typescript-eslint/no-unused-vars": "warn",
       "@typescript-eslint/no-explicit-any": "warn",
